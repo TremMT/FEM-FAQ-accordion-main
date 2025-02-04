@@ -1,19 +1,26 @@
 
-
-
+body {
+    background-color: hsl(275, 100%, 97%);
+    color: #FFFFFF;
+    font-family: "Work Sans", serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
 
 h1 {
-    color : #0000FF;
+    color : hsl(292, 42%, 14%);
     font-size: 3em;
 }
 
 h2 {
-    color : #00ff62;
+    color : hsl(292, 42%, 14%);
     font-size: 1.5em;
 }
 
 p{
-    color : #000000;
+    color : hsl(292, 16%, 49%);
     font-size: 1em;
 }
 
@@ -22,10 +29,16 @@ img {
 }
 
 .container {
-    background-color: #ff56f1;
-    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 815px;
+    max-width: 375px;
+    background-color:hsl(0, 0%, 100%);
     padding: 10px;
     border-radius: 5px;
+    
+    
 }
 
 .faq1,
