@@ -1,12 +1,15 @@
-body {
-  background-color: hsl(275, 100%, 97%);
-  color: #ffffff;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 375px;
   font-family: "Work Sans", serif;
   font-size: 16px;
   line-height: 1.5;
-  margin: 0;
-  padding: 0;
-  height: 100vh;
+}
+
+  body {
+  background-color: hsl(275, 100%, 97%);
   background-image: url(assets/images/background-pattern-mobile.svg);
   background-position: top center;
   background-repeat: no-repeat;
@@ -15,7 +18,7 @@ body {
 
 h1 {
   color: hsl(292, 42%, 14%);
-  font-size: 3em;
+  font-size: 2.25em;
   margin: 0;
 }
 
@@ -27,26 +30,32 @@ h2 {
 
 p {
   color: hsl(292, 16%, 49%);
-  font-size: 1em;
+}
+
+a {
+  color: hsl(0, 0%, 0%);
+  text-decoration: none;
+  font-size: 1.125em;
 }
 
 .star {
   padding-right: 30px;
+  font-size: 1
 }
 
-img {
+.plus{
+  padding: 0px 10px;
+}
+
+.minus{
   padding: 0px 10px;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: 900px;
-  max-width: 325px;
   margin: auto;
   background-color: hsl(0, 0%, 100%);
   border-radius: 9px;
+  max-width: 315px;
 }
 
 .header {
@@ -64,8 +73,8 @@ img {
 .faq3,
 .faq4 {
   color: #ffffff;
-  min-height: 200px;
   max-width: 325px;
+  /*overflow: hidden;*/
 }
 
 .faq1,
@@ -78,4 +87,10 @@ img {
   display: flex;
   justify-content: space-between;
   color: #afafbb;
+}
+
+.attribution {
+  text-align: center;
+  padding: 20px 0;
+  font-size: .50em;
 }
