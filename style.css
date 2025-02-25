@@ -10,6 +10,8 @@ body {
   background-position: top center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+
+}
 }
 
 h1 {
@@ -24,6 +26,13 @@ h2 {
   max-width: 230px;
   align-content: center;
   margin: 0;
+  cursor: pointer;
+
+}
+
+h2:hover {
+  color: hsl(288, 74%, 40%);
+  cursor: pointer;
 }
 
 p {
@@ -59,6 +68,7 @@ a {
   border-radius: 9px;
   max-width: 330px;
   padding: 20px 25px 10px 25px;
+  box-shadow: 0px 0px 20px hsla(0, 0%, 0%, 0.308);
 }
 
 .header {
@@ -107,7 +117,8 @@ a {
     background-image: url(assets/images/background-pattern-desktop.svg);
     background-position: top center;
     background-repeat: no-repeat;
-    background-size: 1920px;    
+    background-size: contain;
+    background-attachment: fixed;    
   }
 
   h1 {
